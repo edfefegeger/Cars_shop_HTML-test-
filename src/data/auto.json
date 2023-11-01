@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "nameAuto":"Forester",
+        "img":"https://i.pinimg.com/originals/f4/e4/c5/f4e4c5d3e7b88eae93fc9ffc53b80c7a.jpg",
+        "price":"500"
+    },
+    {
+        "id":"2",
+        "nameAuto":"Tesla",
+        "img":"https://i.pinimg.com/originals/ed/6c/f0/ed6cf0b9b48c336020037c310ac37f56.jpg",
+        "price":"800"
+    },
+    {
+        "id":"3",
+        "nameAuto":"Wiessmann",
+        "img":"https://i.pinimg.com/originals/66/73/70/66737036543b48ee7424b87e9d8fb028.jpg",
+        "price":"900"
+    }
+]

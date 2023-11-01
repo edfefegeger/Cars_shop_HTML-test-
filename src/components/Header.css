@@ -1,0 +1,12 @@
+.Header
+{
+    margin-top: 10px;
+    font-size: 60px;
+}
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(MorganaRegular-yw0mm.ttf); /* Путь к файлу со шрифтом */
+}
+#naming {
+    font-family: Pompadur;
+}
