@@ -5,8 +5,9 @@ import SearchLabel from './components/SearchLabel';
 import ListStudent from './components/ListStudent';
 import Footer from './components/Footer12';
 import Header from './components/Header';
+import { Route, Link, Router, BrowserRouter, Routes } from 'react-router-dom';
 
-
+import Routes_main from './components/Routes_main';
 function App() 
 {
 
@@ -24,11 +25,16 @@ function App()
   }
 
   return (
+    <BrowserRouter>
     <div className='container-fluid'>
-      <Header />
-      <ListStudent Array={personArray}/>
+    <Header />
+      <Routes>
+      <Route element = {<Routes_main />} path = '*' />
+      <Route element = {<ListStudent Array = {personArray}/>} path='/shopping' />
+      </Routes>
       <Footer />
     </div>
+    </BrowserRouter>
   );
 }
 
